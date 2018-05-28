@@ -1,0 +1,13 @@
+{
+  "defaultSeverity": "warn",
+  "extends": [
+    "tslint:recommended", "tslint-sonarts", "tslint-config-airbnb"
+  ],
+  "rules": {
+    "strict-boolean-expressions": false,
+    "ordered-imports": true,
+    "no-trailing-whitespace": true,
+    "indent": [true, "spaces", 2],
+    "quotemark": [true, "single"]
+  }
+}
