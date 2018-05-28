@@ -40,10 +40,16 @@ export default {
       },
       whatup: {
         message:
-        "Hi whats Up bro, hows going m8?"
+        "Hi I found someone"
       },
       hello: {
         message: "Welcome back!"
+      },
+      hi:{
+        message: "Hi"
+      }, 
+      name:{
+        message: "What's your name?"
       }
     },
     responses: {

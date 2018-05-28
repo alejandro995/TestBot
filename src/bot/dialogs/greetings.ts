@@ -6,8 +6,8 @@ const lib = new Library("greetings");
 
 lib.dialog("whatup", [
     session => {
-        session.send("Hi!");
-        builder.Prompts.text(session,"What's your ngtiame?");
+        session.send(strings.greetings.hi.message);
+        builder.Prompts.text(session, strings.greetings.name.message);
     },    
 (session, results) => {
     session.endDialog(`Nice to meet you ${results.response}! , I am here to tell you anything about anyone! Just Ask!`);
